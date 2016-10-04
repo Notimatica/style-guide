@@ -29,12 +29,12 @@
 </style>
 
 <script>
-import Typography from './style-guide/Typography'
-import Forms from './style-guide/Forms'
-import Buttons from './style-guide/Buttons'
-import FileUpload from './style-guide/FileUpload'
-import Tables from './style-guide/Tables'
-import Panels from './style-guide/Panels'
+import Typography from './StyleGuide/Typography'
+import Forms from './StyleGuide/Forms'
+import Buttons from './StyleGuide/Buttons'
+import FileUpload from './StyleGuide/FileUpload'
+import Tables from './StyleGuide/Tables'
+import Panels from './StyleGuide/Panels'
 
 export default {
   components: {

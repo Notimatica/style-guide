@@ -124,16 +124,16 @@
 <script>
 import VueMultiselect from 'vue-multiselect'
 
-import FormInput from 'src/elements/form/FormInput'
-import FormTextarea from 'src/elements/form/FormTextarea'
-import FormSelect from 'src/elements/form/FormSelect'
-import FormRadio from 'src/elements/form/FormRadio'
-import FormRadioBtn from 'src/elements/form/FormRadioBtn'
-import FormCheckbox from 'src/elements/form/FormCheckbox'
-import FormToggle from 'src/elements/form/FormToggle'
-import MultipleSelect from 'src/elements/form/MultipleSelect'
-import PlaceholdersEditable from 'src/elements/form/PlaceholdersEditable'
-import ImageSelect from 'src/elements/form/ImageSelect'
+import FormInput from 'components/FormInput'
+import FormTextarea from 'components/FormTextarea'
+import FormSelect from 'components/FormSelect'
+import FormRadio from 'components/FormRadio'
+import FormRadioBtn from 'components/FormRadioBtn'
+import FormCheckbox from 'components/FormCheckbox'
+import FormToggle from 'components/FormToggle'
+import MultipleSelect from 'components/MultipleSelect'
+import PlaceholdersEditable from 'components/PlaceholdersEditable'
+import ImageSelect from 'components/ImageSelect'
 
 export default {
   data () {

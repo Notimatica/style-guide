@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import FileUpload from 'src/elements/form/FileUpload'
+import FileUpload from 'components/FileUpload'
 
 export default {
   components: {

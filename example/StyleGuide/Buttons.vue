@@ -70,8 +70,8 @@
 </template>
 
 <script>
-import FormButton from 'src/elements/form/FormButton'
-import FormButtonApprove from 'src/elements/form/FormButtonApprove'
+import FormButton from 'components/FormButton'
+import FormButtonApprove from 'components/FormButtonApprove'
 
 export default {
   components: {

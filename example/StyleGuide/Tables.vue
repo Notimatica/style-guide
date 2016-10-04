@@ -98,7 +98,7 @@
 </template>
 
 <script>
-import FormButton from 'src/elements/form/FormButton'
+import FormButton from 'components/FormButton'
 
 export default {
   components: {

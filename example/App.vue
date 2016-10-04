@@ -18,11 +18,12 @@
 </template>
 
 <script>
-import Menu from 'src/Menu'
-import Messages from 'src/Messages'
-import FooterComponent from 'src/Footer'
-import Overlay from 'src/Overlay'
 import Page from './StyleGuide'
+
+import Menu from 'components/Menu'
+import Messages from 'components/Messages'
+import FooterComponent from 'components/Footer'
+import Overlay from 'components/Overlay'
 
 export default {
   components: {
