@@ -14,7 +14,7 @@
   "main": "src/components/index.js",
   "directories": {
     "assets": "./src/assets",
-    "components": "./src/components",
+    "components": "./src/components"
   },
   "dependencies": {
     "babel-runtime": "^6.0.0",
