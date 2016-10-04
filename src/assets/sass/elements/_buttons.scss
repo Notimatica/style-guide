@@ -1,0 +1,16 @@
+.app-screen {
+	.btn {
+		@include transition (all .2s ease);
+	}
+
+  .btn-default:hover,
+  .btn-default:focus {
+    background-color: #f5fbff
+  }
+
+  .btn-approve {
+    i {
+      margin-right: 0;
+    }
+  }
+}

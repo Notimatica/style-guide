@@ -1,0 +1,61 @@
+.navbar {
+	font-weight: 300;
+	width: 100%;
+  border: 0;
+	@include transition (all 0.2s linear);
+
+	.navbar-brand {
+    padding: (($navbar-height - 36) / 2) $navbar-padding-horizontal;
+    background-color: $brand-success;
+		@include transition (all 0.2s linear);
+
+		&:hover, &:focus {
+      background-color: $brand-success;
+
+			i {
+				@include animation(0s, 200ms, 3, thumb, ease-out)
+			}
+		}
+
+		i {
+	    display: inline-block;
+		}
+	}
+
+	.navbar-nav {
+		> li > a {
+      text-transform: uppercase;
+			@include transition (all 0.2s linear);
+
+			&:hover, &.v-link-active {
+        color: #fff;
+			}
+		}
+
+    > li.dropdown a {
+      text-transform: none;
+    }
+	}
+
+	.dropdown-menu {
+		li {
+			font-size: 14px;
+
+			a {
+				font-weight: 300;
+				line-height: 25px;
+				vertical-align: middle;
+
+        &.v-link-active {
+          color: $text-color;
+  			}
+			}
+		}
+	}
+}
+
+@include keyframe(thumb) {
+	0% { transform: scale(1); }
+	50% { transform: scale(0.9); }
+	100% { transform: scale(1); }
+}

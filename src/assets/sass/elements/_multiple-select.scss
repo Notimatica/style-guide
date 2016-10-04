@@ -1,0 +1,58 @@
+.multiple-select {
+  label {
+    display: block;
+    padding: 10px 30px 10px 0;
+    border-bottom: 1px dashed $gray-lighter;
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  .item {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 30px 10px 0;
+    position: relative;
+    cursor: pointer;
+    .check {
+      position: absolute;
+      display: block;
+      right: 0;
+      top: 50%;
+      width: 20px;
+      height: 20px;
+      margin-top: -10px;
+      border: 2px solid $gray-light;
+      border-radius: 50%;
+      @include transition (all .2s ease);
+      i {
+        display: none;
+        color: $body-bg;
+        line-height: 18px;
+        text-align: center;
+        @include transition (all .2s ease);
+      }
+    }
+    &.selected {
+      .check {
+        background-color: $brand-info;
+        border: 1px solid $brand-info;
+        i {
+          display: block;
+        }
+      }
+    }
+    &:hover {
+      .check {
+        border-color: $brand-info;
+      }
+    }
+  }
+}
+
+.multiple-select  {
+  .multiple-select__tags {
+    padding: 6px 40px 0 8px;
+  }
+}

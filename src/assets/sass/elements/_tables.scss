@@ -1,0 +1,12 @@
+.table {
+  thead {
+    tr {
+      th {
+        border-bottom: 1px solid $panel-default-border;
+      }
+    }
+  }
+  .actions {
+    text-align: right;
+  }
+}

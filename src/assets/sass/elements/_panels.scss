@@ -1,0 +1,11 @@
+.app-screen {
+  .panel-title {
+    display: inline-block;
+  }
+
+	.panel-flush {
+		.panel-body, .panel-header {
+			padding: 0;
+		}
+	}
+}

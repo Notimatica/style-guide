@@ -1,0 +1,38 @@
+.date {
+  sub {
+    bottom: 0;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+}
+
+.btn-link:focus,
+.btn-link:active {
+  outline: 0;
+}
+
+i.spin {
+  display: inline-block;
+  animation: spin 2s infinite linear;
+}
+
+.multiselect__tag, .multiselect__option--highlight {
+  background-color: $brand-success !important;
+  font-weight: 300;
+}
+
+.multiselect__tag-icon:hover {
+  background-color: darken($brand-success, 10%) !important;
+}
+
+.image-preview {
+  .preview {
+    position: relative;
+    display: inline-block;
+  }
+}
+
+@include keyframe(spin) {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(359deg); }
+}

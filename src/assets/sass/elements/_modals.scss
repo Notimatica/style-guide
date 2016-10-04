@@ -1,0 +1,16 @@
+.modal {
+  .modal-footer {
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .modal-danger {
+    .modal-header {
+      background-color: $panel-danger-heading-bg;
+      color: $panel-danger-text;
+      border-radius: 6px 6px 0 0;
+      border-bottom: 1px solid $panel-danger-border;
+    }
+  }
+}

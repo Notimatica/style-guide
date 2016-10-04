@@ -1,0 +1,10 @@
+.placehoder-editable {
+  .form-control {
+    cursor: text;
+    height: 65px;
+    resize: none;
+    .placeholder {
+      color: $input-color-placeholder;
+    }
+  }
+}

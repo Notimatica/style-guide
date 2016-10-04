@@ -1,0 +1,59 @@
+$gray-base:              #1e3948;
+$gray-darker:            lighten($gray-base, 13.5%);
+$gray-dark:              lighten($gray-base, 20%);
+$gray:                   lighten($gray-base, 33.5%);
+$gray-light:             lighten($gray-base, 46.7%);
+$gray-lighter:           lighten($gray-base, 75.5%);
+
+$body-bg:                #f5f8fa;
+$text-color:             $gray-base;
+
+// $brand-primary:         #3097d1; // #337ab7 // #2ec2fb
+$brand-success:         #00c385;
+// $brand-info:            #8eb4cb;
+$brand-warning:         #ffc107;
+$brand-danger:          #fd6f66;
+
+$state-danger-text: $brand-danger;
+
+$font-family-sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
+$font-size-base: 14px;
+$letter-spacing: .4px;
+$line-height-base: 1.8;
+
+$border-radius-base: 3px;
+$active-icon-color: #6CC94D;
+
+$navbar-height: 80px;
+$navbar-default-bg: rgba(76, 88, 164, 0.95);
+$navbar-default-color: rgba(255, 255, 255, 0.8);
+$navbar-default-link-color: rgba(255, 255, 255, 0.8);
+$navbar-default-link-hover-color: #fff;
+$navbar-default-link-active-color: #fff;
+$navbar-default-brand-color: #fff;
+$navbar-default-brand-hover-color: $navbar-default-brand-color;
+$navbar-default-brand-hover-bg: $brand-success;
+
+$input-color: #000000;
+$input-border: #d4dbe0;
+$input-border-focus: #66afe9;
+$input-group-addon-bg: $gray-lighter;
+
+$panel-inner-border: #d3e0e9;
+$panel-footer-bg: #f5f8fa;
+
+$panel-default-text: $gray-base;
+$panel-default-heading-bg: #fff;
+$panel-default-border: $panel-inner-border;
+
+$table-border-color: $panel-default-border;
+
+$btn-border-radius-base: 4px;
+$btn-font-weight: 300;
+$btn-default-color: $text-color;
+$btn-default-border: $panel-inner-border;
+
+$dropdown-divider-bg: $panel-default-border;
+$dropdown-link-color: $text-color;
+$dropdown-link-hover-color: $text-color;
+$dropdown-link-hover-bg: $panel-footer-bg;

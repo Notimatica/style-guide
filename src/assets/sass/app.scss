@@ -1,0 +1,72 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+/*
+ * Variables...
+ */
+
+@import "variables";
+
+/*
+ * Bootstrap CSS...
+ */
+@import "~bourbon/app/assets/stylesheets/bourbon";
+@import "~nprogress/nprogress";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+/**
+ * Mixins
+ */
+
+@import "mixins/animation";
+
+/**
+ * Elements
+ */
+
+@import "elements/icons";
+@import "elements/buttons";
+@import "elements/forms";
+@import "elements/toggle";
+@import "elements/multiple-select";
+@import "elements/modals";
+@import "elements/nav";
+@import "elements/panels";
+@import "elements/paginator";
+@import "elements/tables";
+@import "elements/tooltips";
+@import "elements/dropzone";
+@import "elements/callouts";
+@import "elements/overlay";
+@import "elements/misc";
+
+/**
+ * Components
+ */
+
+@import "components/tabs";
+@import "components/nprogress";
+@import "components/footer";
+@import "components/notification-preview";
+@import "components/project-selector";
+@import "components/placehoder-editable";
+@import "components/projects";
+@import "components/provider";
+
+/*
+ * Misc.
+ */
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin-bottom: 80px;
+	letter-spacing: $letter-spacing;
+}
+
+
+[v-cloak] {
+    display: none;
+}
