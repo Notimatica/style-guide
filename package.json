@@ -12,6 +12,10 @@
     "lint": "eslint --ext .js,.vue src test/e2e/specs"
   },
   "main": "src/components/index.js",
+  "directories": {
+    "assets": "./src/assets",
+    "components": "./src/components",
+  },
   "dependencies": {
     "babel-runtime": "^6.0.0",
     "bootstrap-sass": "^3.3.7",
