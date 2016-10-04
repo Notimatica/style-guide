@@ -16,6 +16,12 @@
     "assets": "./src/assets",
     "components": "./src/components"
   },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true
+    }
+  },
   "dependencies": {
     "babel-runtime": "^6.0.0",
     "bootstrap-sass": "^3.3.7",
