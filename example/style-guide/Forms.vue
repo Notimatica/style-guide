@@ -13,6 +13,7 @@
       </div>
       <div class="col-md-6">
         <form-input
+          id="text-input-error"
           label="Error input"
           message="Your input is invalid"
           :error.sync="true"
@@ -20,18 +21,22 @@
         </form-input>
       </div>
     </div>
+
     <form-input
+      id="text-input-disabled"
       label="Disabled input"
       :disabled="true"
       :value.sync="disabled">
     </form-input>
 
     <form-input
+      id="text-input-group-left"
       label="Input group"
       :group="{left:true,text:'@'}"
       placeholder="Email">
     </form-input>
     <form-input
+      id="text-input-group-right"
       :group="{right:true,text:'@'}"
       placeholder="Email">
     </form-input>
