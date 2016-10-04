@@ -11,6 +11,9 @@
     "test": "npm run e2e",
     "lint": "eslint --ext .js,.vue src test/e2e/specs"
   },
+  "directories": {
+    "src": "src/"
+  },
   "dependencies": {
     "babel-runtime": "^6.0.0",
     "bootstrap-sass": "^3.3.7",
