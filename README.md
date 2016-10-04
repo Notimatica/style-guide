@@ -1,6 +1,8 @@
-# notimatica-style-guide
+# Notimatica UI Style Guide
 
-> Notimatica UI style guide
+> Notimatica dashboard styles and collection of reusable components for Vue 1.0
+
+> :warning: Still in progress.
 
 ## Build Setup
 
