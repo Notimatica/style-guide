@@ -38,34 +38,9 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "elements/callouts";
 @import "elements/overlay";
 @import "elements/misc";
-
-/**
- * Components
- */
-
-@import "components/tabs";
-@import "components/nprogress";
-@import "components/footer";
-@import "components/notification-preview";
-@import "components/project-selector";
-@import "components/placehoder-editable";
-@import "components/projects";
-@import "components/provider";
-
-/*
- * Misc.
- */
-
-html {
-	min-height: 100%;
-	position: relative;
-}
-
-body {
-	margin-bottom: 80px;
-	letter-spacing: $letter-spacing;
-}
-
+@import "elements/tabs";
+@import "elements/nprogress";
+@import "elements/placehoder-editable";
 
 [v-cloak] {
     display: none;
