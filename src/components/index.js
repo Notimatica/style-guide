@@ -20,7 +20,7 @@ import Paginator from '.Paginator/'
 import PlaceholdersEditable from '.PlaceholdersEditable/'
 import Submenu from '.Submenu/'
 
-export default {
+module.exports = {
   FileUpload,
   Footer,
   FormButton,
